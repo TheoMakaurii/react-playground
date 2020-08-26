@@ -5,7 +5,8 @@ import Tooltip from './composition/Tooltip';
 import TheDate from './composition/state/TheDate';
 import Counter from './composition/state/Counter';
 import HelloWorld from './composition/state-drills/helloWorld';
-import Bomb from './composition/state-drills/bomb'
+import Bomb from './composition/state-drills/bomb';
+import RussianRoulette from './composition/state-drills/russianRoulette'
 
 // make 2 tooltips here and another inside the App directly
 const firstTooltip = (
@@ -41,10 +42,12 @@ function App() {
       <div className="Drill">
         <HelloWorld />
       </div>
-      <div className="Drill">
+      <div className="Bomb">
         <Bomb />
       </div>
-
+      <div className = "Gun">
+        <RussianRoulette bulletInChamber={6} />
+      </div>
     </main>
   )
 }

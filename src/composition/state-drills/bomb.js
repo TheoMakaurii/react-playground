@@ -27,9 +27,9 @@ class Bomb extends Component{
         return( 
                 <div>
                     <h3>ITS THE BOMB</h3>
-                    {this.state.count % 2 === 0 && this.state.count %8 !==0 && <h3>Tock</h3>}
-                    {this.state.count % 2 !==0 && this.state.count % 8 !==0  &&<h3>Tick</h3>}
-                    {this.state.count % 8 === 0 && this.state.count !==0 && <h3>BOOM!!!</h3>}
+                    {this.state.count % 2 === 0 && this.state.count %7 !==0 && <h3>Tock</h3>}
+                    {this.state.count % 2 !==0 && this.state.count % 7  !==0  &&<h3>Tick</h3>}
+                    {this.state.count % 7 === 0 && this.state.count !==0 && <h1>BOOM!!!</h1>}
                    
                 </div>
             )

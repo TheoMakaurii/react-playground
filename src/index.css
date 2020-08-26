@@ -41,3 +41,36 @@ main{
   border: yellow 5px dotted;
 
 }
+.Bomb{
+  height: 210px;
+  padding: 21px;
+  padding-top: 35px;
+  padding-bottom: 0px;
+  margin: 28px;
+  border-radius: 40%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: purple;
+  text-align: center;
+  border: black 5px solid;
+
+}
+
+.Bomb h1{
+  color: red;
+  border-radius: 40%;
+  padding: 42px;
+  border: 5px yellow solid;
+  margin-bottom: 0;
+}
+
+.Gun{
+  height: auto;
+  padding: 21px;
+  margin: 28px;
+  border-radius: 10%;
+  font-family: sans-serif;
+  color: slateblue;
+  text-align: center;
+  border: slategray 5px dashed;
+
+}
