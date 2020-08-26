@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main{
+  display: flex;
+  height: 300px;
+  flex-wrap: wrap;
+}
+
+.left{
+  height: 210px;
+}
+
+.right{
+
+  height: 210px;
+}
+
+.State-Prac{
+  height: 210px;
+  padding: 7px;
+  border: lightblue 5px dotted;
+}
