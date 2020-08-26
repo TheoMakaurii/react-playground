@@ -7,26 +7,30 @@ class Bomb extends Component{
     super(props)
     this.state={
         count:0,
-        isTick: true
     }}
 
     componentDidMount(){
-        this.interval= setInterval(() => {
+    this.interval= setInterval(() => {
             const timer =this.state.count +1
-            this.setState({count:timer  })
+            this.setState({count:timer })
         },1000)
-        console.log(this.count)
+
+
         
     }
+    
     componentWillUnmount(){
-        clearInterval(this.interval)
-    }
+            clearInterval(this.interval)
+      }
+    
     render(){
         return( 
                 <div>
                     <h3>ITS THE BOMB</h3>
-                    {this.state.isTick && <h3>Tick</h3>}
-                    {!this.state.isTick && <h3>Tock</h3>}
+                    {this.state.count % 2 === 0 && this.state.count %8 !==0 && <h3>Tock</h3>}
+                    {this.state.count % 2 !==0 && this.state.count % 8 !==0  &&<h3>Tick</h3>}
+                    {this.state.count % 8 === 0 && this.state.count !==0 && <h3>BOOM!!!</h3>}
+                   
                 </div>
             )
     }
