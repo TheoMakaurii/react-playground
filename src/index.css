@@ -32,3 +32,12 @@ main{
   padding: 7px;
   border: lightblue 5px dotted;
 }
+
+.Drill{
+  height: 210px;
+  padding: 7px;
+  margin: 28px;
+  font-family: fantasy;
+  border: yellow 5px dotted;
+
+}
