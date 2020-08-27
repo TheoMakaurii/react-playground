@@ -37,7 +37,7 @@ main{
   height: 210px;
   padding: 7px;
   margin: 28px;
-  font-family: fantasy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: yellow 5px dotted;
 
 }
@@ -72,5 +72,27 @@ main{
   color: slateblue;
   text-align: center;
   border: slategray 5px dashed;
+
+}
+
+.Tabs{
+
+  height: auto;
+  padding: 21px;
+  margin: 28px;
+  border-radius: 10%;
+  font-family: fantasy;
+  font-size: 42px;
+  color: lightskyblue;
+  text-align: center;
+  border: darkblue 5px double;
+}
+
+.Tabs button{
+  color: lightskyblue;
+  border-color: lightskyblue;
+  margin: 7px;
+  padding:7px;
+  border-radius: 42%;
 
 }
